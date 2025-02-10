@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ddfec33accfcc4f9da88b582c6153a, type: 3}
+  m_Name: Lighting
+  m_EditorClassIdentifier: 
+  rarity: 0
+  fishSprite: {fileID: 21300000, guid: d5df036b0b7129a47b7bef086c75b70f, type: 3}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  spriteRotation: 0
+  rotationSpeed: 1
+  neighborDistance: 2
+  avoidanceRadius: 3
+  alignmentWeight: 1
+  cohesionWeight: 1
+  separationWeight: 1
+  maxSpeed: 10
+  maxForce: 10
+  species: Lighting
+  avoidOtherSpecies: 1
+  rare: 1
+  preferredBait: Worm
+  detectionRadius: 5
+  baitAttractionWeight: 1
+  playerAvoidanceWeight: 1
+  attractionWeight: 1
+  preferredBaitType: Worm

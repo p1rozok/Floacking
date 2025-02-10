@@ -45,79 +45,96 @@
     <Analyzer Include="E:\2022.3.45f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SunMoonCicle.cs" />
+    <Compile Include="Assets\Scripts\Fishing\PlayerController.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Scripts\Fishing\MoveHook.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Fishing\ThrowHook.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\Scripts\ToggleButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\Scripts\SwithCameraToBait.cs" />
-    <Compile Include="Assets\Fish\SpatialGrid.cs" />
-    <Compile Include="Assets\Scripts\Dock.cs" />
-    <Compile Include="Assets\Scripts\LineRendererSmootherEditor.cs" />
+    <Compile Include="Assets\Scripts\Environment\DayNight.cs" />
+    <Compile Include="Assets\Scripts\Movement\Dock.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\Scripts\LineHookAndBait.cs" />
+    <Compile Include="Assets\Scripts\Fishing\Fishing.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\BaitScriptableObject\Bait.cs" />
-    <Compile Include="Assets\Scripts\FishingLine.cs" />
-    <Compile Include="Assets\Scripts\Hook.cs" />
+    <Compile Include="Assets\Scripts\Fishing\Hook.cs" />
+    <Compile Include="Assets\Scripts\Fishing\PresenterBait.cs" />
+    <Compile Include="Assets\Scripts\Fishing\SetActiveFalseMove.cs" />
+    <Compile Include="Assets\Scripts\Fishes\SpatialGrid.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\SetActiveTrueMove.cs" />
-    <Compile Include="Assets\Scripts\MoveBoat.cs" />
+    <Compile Include="Assets\Scripts\RodMiniGame\ToggleMiniGame.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\NewForFish\PopulationManager.cs" />
+    <Compile Include="Assets\Scripts\InventoryView\BaitSlotPick.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\Scripts\DayNight.cs" />
-    <Compile Include="Assets\Scripts\Paralax.cs" />
-    <Compile Include="Assets\Fish\FishData.cs" />
-    <Compile Include="Assets\Scripts\PresenterBait.cs" />
+    <Compile Include="Assets\Scripts\Fishing\FishingLine.cs" />
+    <Compile Include="Assets\Scripts\Fishing\LineHookAndBait.cs" />
+    <Compile Include="Assets\Scripts\Fishing\CathFish.cs" />
+    <Compile Include="Assets\Scripts\Fishes\FishManager.cs" />
+    <Compile Include="Assets\Scripts\Environment\SunMoonCicle.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\Fishes\Fish.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Fish\FishTickManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Camera\SwithCameraToBait.cs" />
+    <Compile Include="Assets\Scripts\Movement\MoveBoat.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Scripts\SetActiveFalseMove.cs" />
-    <Compile Include="Assets\Scripts\LineRendererSmoother.cs" />
-    <Compile Include="Assets\Fish\FishManager.cs" />
-    <Compile Include="Assets\Scripts\SwapCamera.cs" />
+    <Compile Include="Assets\Scripts\RodMiniGame\ToggleButton.cs" />
+    <Compile Include="Assets\ForScene\MuteManager.cs" />
+    <Compile Include="Assets\Scripts\Fishing\SetActiveTrueMove.cs" />
+    <Compile Include="Assets\Scripts\Environment\CloudMovement.cs" />
+    <Compile Include="Assets\Scripts\Fishes\FishTickManager.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Scripts\Movement\returnposition.cs" />
+    <Compile Include="Assets\Scripts\InventoryView\InventoryView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Scripts\NewForFish\DontDestoyOnLoad.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\Fish\Fish.cs" />
-    <Compile Include="Assets\Scripts\MoveHook.cs" />
-    <Compile Include="Assets\Scripts\Lamp.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\CameraFollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Environment\Lamp.cs" />
+    <Compile Include="Assets\Scripts\Camera\SwapCamera.cs" />
+    <Compile Include="Assets\ScriptableObjects\FishData.cs" />
+    <Compile Include="Assets\Scripts\RodMiniGame\LogicMiniGame.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Environment\CloudSpawner.cs" />
+    <Compile Include="Assets\Scripts\Fishing\button.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\Scripts\ThrowHook.cs" />
+    <Compile Include="Assets\ForScene\SwitchScene.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\Scripts\ToggleMiniGame.cs" />
-    <Compile Include="Assets\Scripts\LogicMiniGame.cs" />
-    <Compile Include="Assets\Scripts\CloudMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\Scripts\CloudSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\NewForFish\DistanceChecker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\ForScene\OnOff.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\Scripts\FishingTrigger.cs" />
+    <Compile Include="Assets\Scripts\Environment\Paralax.cs" />
+    <Compile Include="Assets\ForScene\Music.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\Scripts\Fishing.cs" />
-    <Compile Include="Assets\Scripts\BezierCurve.cs" />
+    <Compile Include="Assets\Scripts\Movement\BaitInstance.cs" />
+    <Compile Include="Assets\Scripts\InventoryView\ViewTakeBait.cs" />
+    <Compile Include="Assets\Scripts\Fishing\Inventory.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\AddressableAssetsData\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -786,14 +803,8 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ResourceManager">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
@@ -852,11 +863,11 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Profiling.Core">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Notifications.Unified">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Notifications.Unified.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
@@ -936,9 +947,6 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Addressables.Editor">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
@@ -978,23 +986,17 @@
     <Reference Include="Cinemachine">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Notifications.Android">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Addressables">
-      <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>C:\Users\владос\Desktop\тест\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
